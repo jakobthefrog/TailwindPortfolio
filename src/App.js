@@ -1,11 +1,11 @@
 import './App.css';
 import IntroSection from './components/IntroSection';
-import TestComponent from './components/TestComponent';
+import TopNavbar from './components/TopNavbar';
 
 function App() {
 	return (
 		<div className="bg-slate-800 text-white">
-			<TestComponent />
+			<TopNavbar />
 			<div className="container relative z-30 mx-auto">
 				<IntroSection />
 			</div>

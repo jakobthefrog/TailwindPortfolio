@@ -20,8 +20,8 @@ const IntroSection = () => {
 							text={[
 								`UI / UX Designer`,
 								`Front-End Developer`,
-								`Coffee Enthusiast`,
-								`Hobby Mechanic`,
+								`Car Enthusiast`,
+								`Coffee Addict`,
 							]}
 						/>
 					</h2>

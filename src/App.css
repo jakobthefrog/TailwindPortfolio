@@ -1,4 +1,12 @@
+@font-face {
+	font-family: 'nunitoRegular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/nunitoRegular.ttf');
+}
+
 .container {
 	padding-left: 1rem;
 	padding-right: 1rem;
+	font-family: nunitoRegular;
 }

@@ -5,7 +5,7 @@ const IntroSection = () => {
 		<main className={`flex-col flex h-screen`} id="home">
 			<div className="container relative flex flex-col items-start justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
 				<div className="w-full">
-					<span className="text-2xl font-semibold text-brand">
+					<span className="text-2xl font-semibold text-lime-600">
 						Hi! My name is
 					</span>
 					<h1 className="mb-4 text-5xl md:text-7xl">

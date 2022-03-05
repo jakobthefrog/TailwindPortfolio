@@ -4,11 +4,10 @@ import TestComponent from './components/TestComponent';
 
 function App() {
 	return (
-		<div className="">
+		<div className="bg-slate-800 text-white">
 			<TestComponent />
 			<div className="container relative z-30 mx-auto">
 				<IntroSection />
-				<h3>Test</h3>
 			</div>
 		</div>
 	);

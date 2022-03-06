@@ -21,7 +21,7 @@ const IntroSection = () => {
 								`UI / UX Designer`,
 								`Front-End Developer`,
 								`Car Enthusiast`,
-								`Coffee Addict`,
+								`Coffee Connoisseur`,
 							]}
 						/>
 					</h2>

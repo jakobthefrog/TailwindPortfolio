@@ -28,9 +28,11 @@ const IntroSection = () => {
 					<p className="w-4/5 text-xl md:w-full">
 						I make products that people love to use!
 					</p>
-					<button className=" bg-lime-800 hover:bg-lime-900 text-white py-2 px-4 rounded mt-10">
-						Check out some stuff I've made
-					</button>
+					<a href="#aboutMe">
+						<button className=" bg-lime-800 hover:bg-lime-900 text-white py-2 px-4 rounded mt-10">
+							Check out some stuff I've made
+						</button>
+					</a>
 				</div>
 			</div>
 		</main>

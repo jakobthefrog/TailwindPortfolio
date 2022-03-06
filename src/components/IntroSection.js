@@ -29,7 +29,7 @@ const IntroSection = () => {
 						I make products that people love to use!
 					</p>
 					<a href="#aboutMe">
-						<button className=" bg-lime-800 hover:bg-lime-900 text-white py-2 px-4 rounded mt-10">
+						<button className=" bg-lime-800 hover:bg-lime-900 text-white py-2 px-4 rounded mt-10 font-bold">
 							Check out some stuff I've made
 						</button>
 					</a>

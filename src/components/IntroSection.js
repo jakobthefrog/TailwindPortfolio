@@ -5,8 +5,8 @@ const IntroSection = () => {
 		<main className={`flex-col flex h-screen`} id="home">
 			<div className="container relative flex flex-col items-start justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
 				<div className="w-full">
-					<span className="text-2xl font-semibold text-lime-600">
-						Hi! My name is
+					<span className="text-2xl font-semibold text-lime-700">
+						Hello! My name is
 					</span>
 					<h1 className="mb-4 text-5xl md:text-7xl">
 						Jakob Andersson
@@ -28,9 +28,9 @@ const IntroSection = () => {
 					<p className="w-4/5 text-xl md:w-full">
 						I make products that people love to use!
 					</p>
-					{/* <button className="mt-4 btn-brand btn-lg">
-                    See my Work
-                </button> */}
+					<button className=" bg-lime-800 hover:bg-lime-900 text-white py-2 px-4 rounded mt-10">
+						Check out some stuff I've made
+					</button>
 				</div>
 			</div>
 		</main>

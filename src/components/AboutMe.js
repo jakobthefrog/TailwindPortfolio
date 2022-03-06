@@ -6,7 +6,7 @@ const AboutMe = () => {
 			<span className="text-4xl font-semibold">About Me</span>
 			<hr className=" w-80 border-2 rounded mt-2 mb-8 border-lime-700" />
 			<div className="grid grid-cols-1 md:grid-cols-10 md:gap-10">
-				<div className="md:col-span-6">
+				<div className="md:col-span-6 md:order-first">
 					<p className="mt-6">
 						My name is Jakob Andersson and I'm a UI / UX Designer
 						and Front-End Developer from Sweden. I'm currently
@@ -49,7 +49,7 @@ const AboutMe = () => {
 						code.
 					</p>
 				</div>
-				<div className="md:col-span-4">
+				<div className="md:col-span-4 order-first">
 					<img
 						className=" rounded-xl mt-6"
 						src={userProfile}

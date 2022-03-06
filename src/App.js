@@ -6,7 +6,6 @@ import TopNavbar from './components/TopNavbar';
 function App() {
 	return (
 		<div className="bg-slate-800 text-white">
-			<TopNavbar className="z-50" />
 			<div className="container relative z-30 mx-auto">
 				<div id="intro">
 					<IntroSection />

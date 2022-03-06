@@ -1,13 +1,19 @@
 import './App.css';
+import AboutMe from './components/AboutMe';
 import IntroSection from './components/IntroSection';
 import TopNavbar from './components/TopNavbar';
 
 function App() {
 	return (
 		<div className="bg-slate-800 text-white">
-			<TopNavbar />
+			<TopNavbar className="z-50" />
 			<div className="container relative z-30 mx-auto">
-				<IntroSection />
+				<div id="intro">
+					<IntroSection />
+				</div>
+				<div id="aboutMe">
+					<AboutMe />
+				</div>
 			</div>
 		</div>
 	);

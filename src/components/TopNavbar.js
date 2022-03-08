@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 const TopNavbar = (props) => {
 	return (
-		<header className="sticky top-0 z-50">
+		<header className="sticky top-0 z-50 nunitoFont">
 			<Disclosure as="nav" className=" bg-slate-800">
 				{({ open }) => (
 					<>

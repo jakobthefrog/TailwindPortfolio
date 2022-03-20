@@ -1,15 +1,20 @@
 @font-face {
-	font-family: 'nunitoRegular';
-	font-style: normal;
-	font-weight: 400;
-	src: url('./fonts/nunitoRegular.ttf');
+  font-family: "nunitoRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/nunitoRegular.ttf");
 }
 
 .container {
-	font-family: nunitoRegular;
-	max-width: 1280px;
+  font-family: nunitoRegular;
+  max-width: 1280px;
 }
 
 .nunitoFont {
-	font-family: nunitoRegular;
+  font-family: nunitoRegular;
+}
+
+.group:hover .group-hover\:text-brand {
+  --tw-text-opacity: 1;
+  color: rgba(77, 124, 15, var(--tw-text-opacity));
 }

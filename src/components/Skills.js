@@ -15,16 +15,11 @@ import AdobeXd from "../components/Icons/AdobeXd";
 
 const Skills = () => {
   return (
-    <section
-      className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
-      id="skills"
-      //   ref={skillsRef}
-    >
-      <h2 className="text-5xl">Skills</h2>
-      <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
-
+    <div className="mt-16">
+      <span className="text-4xl font-semibold">Technical Skills</span>
+      <hr className=" w-80 border-2 rounded mt-2 mb-8 border-lime-700" />
       {/* Skills icons */}
-      <div className="flex flex-wrap w-full pr-4 mt-8">
+      <div className="flex flex-wrap w-full mt-16">
         {/* HTML */}
         <Icon
           IconType={Html}
@@ -229,7 +224,7 @@ const Skills = () => {
           fixedHeight={"h-28"}
         />
       </div>
-    </section>
+    </div>
   );
 };
 

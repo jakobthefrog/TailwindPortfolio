@@ -12,11 +12,10 @@ import Figma from "../components/Icons/Figma";
 import Photoshop from "../components/Icons/Photoshop";
 import Illustrator from "../components/Icons/Illustrator";
 import AdobeXd from "../components/Icons/AdobeXd";
-import GitHub from "../components/Icons/GitHub";
 
 const Skills = () => {
   return (
-    <div className="mt-60 sm:mt-16">
+    <div className="md:mt-60 mt-20">
       <span className="text-4xl font-semibold">Technical Skills</span>
       <hr className=" w-80 border-2 rounded mt-2 mb-8 border-lime-700" />
       {/* Skills icons */}

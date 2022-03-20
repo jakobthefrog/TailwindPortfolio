@@ -12,14 +12,83 @@ import Figma from "../components/Icons/Figma";
 import Photoshop from "../components/Icons/Photoshop";
 import Illustrator from "../components/Icons/Illustrator";
 import AdobeXd from "../components/Icons/AdobeXd";
+import GitHub from "../components/Icons/GitHub";
 
 const Skills = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-60 sm:mt-16">
       <span className="text-4xl font-semibold">Technical Skills</span>
       <hr className=" w-80 border-2 rounded mt-2 mb-8 border-lime-700" />
       {/* Skills icons */}
       <div className="flex flex-wrap w-full mt-16">
+        {/* Figma */}
+        <Icon
+          IconType={Figma}
+          title="Figma"
+          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
+          width={"w-16 sm:w-24"}
+          height={"h-16 sm:h-24"}
+          padding={"p-0"}
+          flexDirection={"flex-col"}
+          titleMargins={"mt-4"}
+          titleSize={"text-sm sm:text-base"}
+          marginBottom={"mb-4"}
+          marginRight={"mr-0"}
+          textTransform={"normal-case"}
+          fixedHeight={"h-28"}
+        />
+
+        {/* Adobe XD */}
+        <Icon
+          IconType={AdobeXd}
+          title="Adobe XD"
+          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
+          width={"w-16 sm:w-24"}
+          height={"h-16 sm:h-24"}
+          padding={"p-0"}
+          flexDirection={"flex-col"}
+          titleMargins={"mt-4"}
+          titleSize={"text-sm sm:text-base"}
+          marginBottom={"mb-4"}
+          marginRight={"mr-0"}
+          textTransform={"normal-case"}
+          fixedHeight={"h-28"}
+        />
+
+        {/* Illustrator */}
+        <Icon
+          IconType={Illustrator}
+          title="Illustrator"
+          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
+          width={"w-16 sm:w-24"}
+          height={"h-16 sm:h-24"}
+          padding={"p-0"}
+          flexDirection={"flex-col"}
+          titleMargins={"mt-4"}
+          titleSize={"text-sm sm:text-base"}
+          marginBottom={"mb-4"}
+          marginRight={"mr-0"}
+          textTransform={"normal-case"}
+          fixedHeight={"h-28"}
+        />
+
+        {/* Photoshop */}
+        <Icon
+          IconType={Photoshop}
+          title="Photoshop"
+          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
+          width={"w-16 sm:w-24"}
+          height={"h-16 sm:h-24"}
+          padding={"p-0"}
+          flexDirection={"flex-col"}
+          titleMargins={"mt-4"}
+          titleSize={"text-sm sm:text-base"}
+          marginBottom={"mb-4"}
+          marginRight={"mr-0"}
+          textTransform={"normal-case"}
+          fixedHeight={"h-28"}
+        />
+
         {/* HTML */}
         <Icon
           IconType={Html}
@@ -41,57 +110,6 @@ const Skills = () => {
         <Icon
           IconType={Css}
           title="CSS"
-          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
-          width={"w-16 sm:w-24"}
-          height={"h-16 sm:h-24"}
-          padding={"p-0"}
-          flexDirection={"flex-col"}
-          titleMargins={"mt-4"}
-          titleSize={"text-sm sm:text-base"}
-          marginBottom={"mb-4"}
-          marginRight={"mr-0"}
-          textTransform={"normal-case"}
-          fixedHeight={"h-28"}
-        />
-
-        {/* Sass */}
-        <Icon
-          IconType={Sass}
-          title="Sass"
-          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
-          width={"w-16 sm:w-24"}
-          height={"h-16 sm:h-24"}
-          padding={"p-0"}
-          flexDirection={"flex-col"}
-          titleMargins={"mt-4"}
-          titleSize={"text-sm sm:text-base"}
-          marginBottom={"mb-4"}
-          marginRight={"mr-0"}
-          textTransform={"normal-case"}
-          fixedHeight={"h-28"}
-        />
-
-        {/* Bootstrap */}
-        <Icon
-          IconType={Bootstrap}
-          title="Bootstrap"
-          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
-          width={"w-16 sm:w-24"}
-          height={"h-16 sm:h-24"}
-          padding={"p-0"}
-          flexDirection={"flex-col"}
-          titleMargins={"mt-4"}
-          titleSize={"text-sm sm:text-base"}
-          marginBottom={"mb-4"}
-          marginRight={"mr-0"}
-          textTransform={"normal-case"}
-          fixedHeight={"h-28"}
-        />
-
-        {/* Tailwind */}
-        <Icon
-          IconType={Tailwind}
-          title="Tailwind"
           columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
           width={"w-16 sm:w-24"}
           height={"h-16 sm:h-24"}
@@ -156,10 +174,10 @@ const Skills = () => {
           fixedHeight={"h-28"}
         />
 
-        {/* Photoshop */}
+        {/* Tailwind */}
         <Icon
-          IconType={Photoshop}
-          title="Photoshop"
+          IconType={Tailwind}
+          title="Tailwind"
           columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
           width={"w-16 sm:w-24"}
           height={"h-16 sm:h-24"}
@@ -173,10 +191,10 @@ const Skills = () => {
           fixedHeight={"h-28"}
         />
 
-        {/* Illustrator */}
+        {/* Bootstrap */}
         <Icon
-          IconType={Illustrator}
-          title="Illustrator"
+          IconType={Bootstrap}
+          title="Bootstrap"
           columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
           width={"w-16 sm:w-24"}
           height={"h-16 sm:h-24"}
@@ -190,27 +208,10 @@ const Skills = () => {
           fixedHeight={"h-28"}
         />
 
-        {/* Adobe XD */}
+        {/* Sass */}
         <Icon
-          IconType={AdobeXd}
-          title="Adobe XD"
-          columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
-          width={"w-16 sm:w-24"}
-          height={"h-16 sm:h-24"}
-          padding={"p-0"}
-          flexDirection={"flex-col"}
-          titleMargins={"mt-4"}
-          titleSize={"text-sm sm:text-base"}
-          marginBottom={"mb-4"}
-          marginRight={"mr-0"}
-          textTransform={"normal-case"}
-          fixedHeight={"h-28"}
-        />
-
-        {/* Figma */}
-        <Icon
-          IconType={Figma}
-          title="Figma"
+          IconType={Sass}
+          title="Sass"
           columnSizing={"w-1/4 sm:w-1/3 lg:w-1/6"}
           width={"w-16 sm:w-24"}
           height={"h-16 sm:h-24"}

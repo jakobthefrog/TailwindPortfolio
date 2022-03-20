@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import IntroSection from "./components/IntroSection";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import TopNavbar from "./components/TopNavbar";
 
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div id="skills">
           <Skills />
+        </div>
+        <div id="projects">
+          <Projects />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import IntroSection from "./components/IntroSection";
 import Projects from "./components/Projects";
+import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 import TopNavbar from "./components/TopNavbar";
 
@@ -21,6 +22,9 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
+      </div>
+      <div id="socials">
+        <Sidebar />
       </div>
     </div>
   );

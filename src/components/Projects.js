@@ -1,5 +1,6 @@
 import EngageProject from "./projects/EngageProject";
 import FocusProject from "./projects/FocusProject";
+import PiggyProject from "./projects/PiggyProject";
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         <FocusProject />
         <EngageProject />
-        <FocusProject />
+        <PiggyProject />
       </div>
     </div>
   );

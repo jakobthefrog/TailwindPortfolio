@@ -1,11 +1,19 @@
+//css files
 import "./App.css";
+
+//navbar
+import TopNavbar from "./components/TopNavbar";
+
+//components
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import IntroSection from "./components/IntroSection";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
-import TopNavbar from "./components/TopNavbar";
+
+//pages
+import CaseStudy1 from "./components/pages/CaseStudy1";
 
 function App() {
   return (
